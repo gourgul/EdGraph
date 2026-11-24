@@ -1,0 +1,23 @@
+# Données : jamais dans Git
+data/
+*.parquet
+*.duckdb
+*.csv
+!tests/fixtures/**/*.csv
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Neo4j local
+neo4j/
+
+# OS / éditeurs
+.DS_Store
+.idea/
+.vscode/

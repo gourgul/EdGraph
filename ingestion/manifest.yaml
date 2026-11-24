@@ -1,0 +1,12 @@
+# Manifeste des sources ingérées : une entrée par source et par millésime.
+# Rempli en P2–P3. Le hash garantit que le pipeline rejoue exactement les mêmes fichiers.
+
+sources: []
+# Exemple :
+# - id: rome-4
+#   fiche: docs/sources/rome-4.md
+#   url: <url de l'API ou du fichier>
+#   millesime: "2026"
+#   date_telechargement: 2027-01-15
+#   fichier: data/raw/rome-4/2026/....json
+#   sha256: <hash>
