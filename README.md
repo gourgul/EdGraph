@@ -40,9 +40,10 @@ POC : étudiants ESSEC Grande École (MiM) qui choisissent leurs stages et leur 
 ## Démarrer
 
 ```bash
-git clone <url> && cd EdGraph
+gh repo clone gourgul/EdGraph && cd EdGraph
 cp .env.example .env   # renseigner les clés API
 # installation et pipeline : à écrire en P2 (uv + DuckDB + Neo4j, voir docs/methodologie.md §5)
 ```
 
 Avant de commencer : lire `docs/methodologie.md`, puis `docs/backlog-p0.md`.
+Pour la mise en route et le cycle issue → branche → PR : [`CONTRIBUTING.md`](CONTRIBUTING.md).
